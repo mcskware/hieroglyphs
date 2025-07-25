@@ -1,0 +1,1234 @@
+{
+  "hieroglyphs": [
+    {
+      "unicode": "𓅂",
+      "transliteration": "ꜣ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇋",
+      "transliteration": "j",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇌",
+      "transliteration": "y",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂝",
+      "transliteration": "ꜥ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅱",
+      "transliteration": "w",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓃀",
+      "transliteration": "b",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊪",
+      "transliteration": "p",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆑",
+      "transliteration": "f",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅓/𓐛",
+      "transliteration": "m",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈖/𓋔",
+      "transliteration": "n",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂋",
+      "transliteration": "r",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓉔",
+      "transliteration": "h",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎛",
+      "transliteration": "ḥ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐍",
+      "transliteration": "ḫ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄡",
+      "transliteration": "ẖ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊃",
+      "transliteration": "z",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋴",
+      "transliteration": "s",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈙",
+      "transliteration": "š",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏘",
+      "transliteration": "q",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎡",
+      "transliteration": "k",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎽/𓎤",
+      "transliteration": "g",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏏",
+      "transliteration": "t",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍿",
+      "transliteration": "ṯ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂧",
+      "transliteration": "d",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆓",
+      "transliteration": "ḏ",
+      "type": "uniliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄫",
+      "transliteration": "ꜣw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍋",
+      "transliteration": "ꜣb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅜/𓇇",
+      "transliteration": "ꜣḫ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂻/𓃛",
+      "transliteration": "jw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄣/𓃙",
+      "transliteration": "jb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏶/𓐛",
+      "transliteration": "jm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏎/𓀟/𓆛/𓏌",
+      "transliteration": "jn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓁹/𓀹",
+      "transliteration": "jr",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌤",
+      "transliteration": "jḥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇩",
+      "transliteration": "jz",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄼",
+      "transliteration": "js",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓀗",
+      "transliteration": "jk",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎁",
+      "transliteration": "jṯ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓉻",
+      "transliteration": "ꜥꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄏",
+      "transliteration": "ꜥb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌤",
+      "transliteration": "ꜥḥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅧",
+      "transliteration": "ꜥq",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎙/𓎚",
+      "transliteration": "ꜥd",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎙/𓎚/𓆝",
+      "transliteration": "ꜥḏ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍯",
+      "transliteration": "wꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌡",
+      "transliteration": "wꜥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄋",
+      "transliteration": "wp",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓃹/𓇬",
+      "transliteration": "wn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅨",
+      "transliteration": "wr",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊨/𓊩",
+      "transliteration": "ws",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎗/𓎘",
+      "transliteration": "wd",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎗/𓎘",
+      "transliteration": "wḏ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅡/𓎻/𓊸",
+      "transliteration": "bꜣ",
+      "type": "biliteral",
+      "can_be_determinative": true
+    },
+    {
+      "unicode": "𓄑",
+      "transliteration": "bḥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅮/𓅯",
+      "transliteration": "pꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓉐",
+      "transliteration": "pr",
+      "type": "biliteral",
+      "can_be_determinative": true
+    },
+    {
+      "unicode": "𓄖",
+      "transliteration": "pḥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂾/𓌒",
+      "transliteration": "pd",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌒",
+      "transliteration": "pḏ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌳",
+      "transliteration": "mꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏇/𓂟/𓈘",
+      "transliteration": "mj",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈗",
+      "transliteration": "mw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏠/𓌇",
+      "transliteration": "mn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍋/𓌸/𓈘/𓉕",
+      "transliteration": "mr",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎕",
+      "transliteration": "mḥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄟",
+      "transliteration": "ms",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂸/𓅐",
+      "transliteration": "mt",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌃",
+      "transliteration": "md",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂜/𓂢",
+      "transliteration": "nj",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏌/𓍇",
+      "transliteration": "nw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎠",
+      "transliteration": "nb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌱/𓌰/𓉕",
+      "transliteration": "nm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇒",
+      "transliteration": "nn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅘",
+      "transliteration": "nḥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄓",
+      "transliteration": "ns",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐩",
+      "transliteration": "nḏ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓃭",
+      "transliteration": "rw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌘",
+      "transliteration": "rs",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍁",
+      "transliteration": "hb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇉",
+      "transliteration": "ḥꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄑",
+      "transliteration": "ḥw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐑",
+      "transliteration": "ḥp",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈟/𓍛",
+      "transliteration": "ḥm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆰/𓎨/𓌼",
+      "transliteration": "ḥn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓁷/𓈐",
+      "transliteration": "ḥr",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎿",
+      "transliteration": "ḥz",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎿",
+      "transliteration": "ḥs",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌉/𓌋",
+      "transliteration": "ḥḏ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆼/𓆩",
+      "transliteration": "ḫꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈍",
+      "transliteration": "ḫꜥ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂤",
+      "transliteration": "ḫw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋉",
+      "transliteration": "ḫm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆱",
+      "transliteration": "ḫt",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆞",
+      "transliteration": "ẖꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄚/𓂙",
+      "transliteration": "ẖn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌨",
+      "transliteration": "ẖr",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅭/𓎂/𓎃",
+      "transliteration": "zꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊗",
+      "transliteration": "zp",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐟/𓐠",
+      "transliteration": "sꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇑",
+      "transliteration": "sw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌢",
+      "transliteration": "snꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎝",
+      "transliteration": "sk",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊨/𓄝",
+      "transliteration": "st",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋫",
+      "transliteration": "sṯ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏴",
+      "transliteration": "sḏ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆷",
+      "transliteration": "šꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆄",
+      "transliteration": "šw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈝",
+      "transliteration": "šm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍲/𓍢",
+      "transliteration": "šn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍱",
+      "transliteration": "šs",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄞",
+      "transliteration": "šd",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐖",
+      "transliteration": "qn",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌟",
+      "transliteration": "qs",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐪",
+      "transliteration": "qd",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂓",
+      "transliteration": "kꜣ",
+      "type": "biliteral",
+      "can_be_determinative": true
+    },
+    {
+      "unicode": "𓍜",
+      "transliteration": "kp",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆎",
+      "transliteration": "km",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅬",
+      "transliteration": "gb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅠",
+      "transliteration": "gm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐝/𓐞",
+      "transliteration": "gs",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍔/𓇾",
+      "transliteration": "tꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍘",
+      "transliteration": "tj",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓁶/𓌐",
+      "transliteration": "tp",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍃",
+      "transliteration": "tm",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅷",
+      "transliteration": "ṯꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂞/𓏙",
+      "transliteration": "dj",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅙",
+      "transliteration": "db",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍒",
+      "transliteration": "ḏꜣ",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈋",
+      "transliteration": "ḏw",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅙",
+      "transliteration": "ḏb",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇥",
+      "transliteration": "ḏr",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊽",
+      "transliteration": "ḏd",
+      "type": "biliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓉺",
+      "transliteration": "jwn",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆭",
+      "transliteration": "jmꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄯",
+      "transliteration": "jsw",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄔",
+      "transliteration": "jdn",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋿",
+      "transliteration": "ꜥwt",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌂",
+      "transliteration": "ꜥbꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐢",
+      "transliteration": "ꜥpr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋹",
+      "transliteration": "ꜥnḫ",
+      "type": "triliteral",
+      "can_be_determinative": true
+    },
+    {
+      "unicode": "𓊢",
+      "transliteration": "ꜥḥꜥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆈",
+      "transliteration": "ꜥšꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎝",
+      "transliteration": "wꜣḥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌀",
+      "transliteration": "wꜣs/wꜣb",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇅",
+      "transliteration": "wꜣḏ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇶",
+      "transliteration": "wbn",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐎",
+      "transliteration": "wḥꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊠",
+      "transliteration": "wḥꜥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄙",
+      "transliteration": "wḥm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄊",
+      "transliteration": "wsr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋝",
+      "transliteration": "wsḫ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇸",
+      "transliteration": "wḏꜥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓈄",
+      "transliteration": "wḏb",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎯",
+      "transliteration": "bꜣs",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆀/𓆁",
+      "transliteration": "pꜣq",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇷/𓇸",
+      "transliteration": "psḏ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓐙",
+      "transliteration": "mꜣꜥ",
+      "type": "triliteral",
+      "can_be_determinative": true
+    },
+    {
+      "unicode": "𓅐",
+      "transliteration": "mwt",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎣",
+      "transliteration": "msn",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋜",
+      "transliteration": "mḏḥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄤",
+      "transliteration": "nfr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓀔",
+      "transliteration": "nnj",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇑",
+      "transliteration": "nḫb",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊹",
+      "transliteration": "nṯr",
+      "type": "triliteral",
+      "can_be_determinative": true
+    },
+    {
+      "unicode": "𓇛",
+      "transliteration": "nḏm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌗",
+      "transliteration": "rwḏ/rwd",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎺",
+      "transliteration": "ḥnw",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋾",
+      "transliteration": "ḥqꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊵",
+      "transliteration": "ḥtp",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊨",
+      "transliteration": "ḥtm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓆣",
+      "transliteration": "ḫpr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏅",
+      "transliteration": "ḫnt",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓂉",
+      "transliteration": "ḫnt",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊤",
+      "transliteration": "ḫrw",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍙",
+      "transliteration": "ḫsf",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓎸",
+      "transliteration": "ẖnm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏴",
+      "transliteration": "zwꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌕",
+      "transliteration": "zwn",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄥",
+      "transliteration": "zmꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄜",
+      "transliteration": "sꜣb",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋫",
+      "transliteration": "sꜣṯ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋷",
+      "transliteration": "sjꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓏴",
+      "transliteration": "swꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇼",
+      "transliteration": "sbꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄭",
+      "transliteration": "spr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅾",
+      "transliteration": "snḏ/snd",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌂",
+      "transliteration": "sḫm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌫/𓌬",
+      "transliteration": "sšm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍉",
+      "transliteration": "stp",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄔",
+      "transliteration": "sḏm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇗",
+      "transliteration": "šmꜥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌞",
+      "transliteration": "šms",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍁",
+      "transliteration": "šnꜥ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊐/𓊏",
+      "transliteration": "šzp",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍱",
+      "transliteration": "šsr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓊶",
+      "transliteration": "kꜣp",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓍅",
+      "transliteration": "grg",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓄿/𓅘",
+      "transliteration": "tjw",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋭",
+      "transliteration": "ṯꜣz",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓇼",
+      "transliteration": "dwꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌥",
+      "transliteration": "dbꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓋬",
+      "transliteration": "dmḏ/dmd",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓅟",
+      "transliteration": "dšr",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌁",
+      "transliteration": "ḏꜥm",
+      "type": "triliteral",
+      "can_be_determinative": false
+    },
+    {
+      "unicode": "𓌥",
+      "transliteration": "ḏbꜣ",
+      "type": "triliteral",
+      "can_be_determinative": false
+    }
+  ]
+}

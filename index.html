@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middle Egyptian Hieroglyph Quiz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            gap: 20px;
+        }
+
+        .main-content {
+            flex: 2;
+            max-width: 800px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            max-height: 80vh;
+            overflow-y: auto;
+            position: sticky;
+            top: 20px;
+        }
+
+        .quiz-container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .hieroglyph-display {
+            font-size: 120px;
+            margin: 30px 0;
+            color: #2c3e50;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            min-height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .question {
+            font-size: 24px;
+            color: #34495e;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .answers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .answer-button {
+            padding: 15px 25px;
+            font-size: 18px;
+            border: 2px solid #3498db;
+            background: white;
+            color: #3498db;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .answer-button:hover {
+            background: #3498db;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .answer-button:disabled {
+            background: #e74c3c;
+            color: white;
+            border-color: #e74c3c;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .answer-button.correct {
+            background: #27ae60;
+            color: white;
+            border-color: #27ae60;
+        }
+
+        .stats {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .stat {
+            color: #2c3e50;
+        }
+
+        .stat-number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #3498db;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .sidebar h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        .correct-answer {
+            background: #e8f5e8;
+            border: 1px solid #27ae60;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .correct-hieroglyph {
+            font-size: 32px;
+            min-width: 40px;
+        }
+
+        .correct-transliteration {
+            font-weight: bold;
+            color: #27ae60;
+            font-size: 18px;
+        }
+
+        .correct-type {
+            font-size: 12px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .next-button {
+            margin-top: 20px;
+            padding: 12px 30px;
+            font-size: 16px;
+            background: #27ae60;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .next-button:hover {
+            background: #229954;
+            transform: translateY(-1px);
+        }
+
+        .title {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+
+        .loading {
+            font-size: 18px;
+            color: #7f8c8d;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .error {
+            background: #fee;
+            border: 1px solid #e74c3c;
+            color: #c0392b;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+                padding: 10px;
+            }
+            
+            .sidebar {
+                position: static;
+                max-height: none;
+            }
+            
+            .answers {
+                grid-template-columns: 1fr;
+            }
+            
+            .hieroglyph-display {
+                font-size: 80px;
+                min-height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="quiz-container">
+            <h1 class="title">Middle Egyptian Hieroglyph Quiz</h1>
+            
+            <div id="loading" class="loading">Loading hieroglyph data...</div>
+            
+            <div id="error-message" class="error" style="display: none;"></div>
+            
+            <div id="quiz-content" style="display: none;">
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number" id="correct-count">0</div>
+                        <div class="stat-label">Correct</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" id="total-count">0</div>
+                        <div class="stat-label">Total</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" id="accuracy">0%</div>
+                        <div class="stat-label">Accuracy</div>
+                    </div>
+                </div>
+
+                <div class="question">What is the transliteration of this hieroglyph?</div>
+                <div class="hieroglyph-display" id="hieroglyph-display"></div>
+                
+                <div class="answers" id="answers"></div>
+                
+                <button class="next-button" id="next-button" onclick="nextQuestion()" style="display: none;">Next Question</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h3>✅ Correct Answers</h3>
+        <div id="correct-answers"></div>
+    </div>
+
+    <script>
+        let hieroglyphs = [];
+        let currentQuestion = null;
+        let correctAnswers = [];
+        let totalQuestions = 0;
+        let correctCount = 0;
+
+        // Load hieroglyph data from JSON file
+        async function loadHieroglyphData() {
+            try {
+                const response = await fetch('./hieroglyph_data.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                hieroglyphs = data.hieroglyphs;
+                
+                // Hide loading, show quiz
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('quiz-content').style.display = 'block';
+                
+                // Start the quiz
+                generateQuestion();
+                
+            } catch (error) {
+                console.error('Error loading hieroglyph data:', error);
+                document.getElementById('loading').style.display = 'none';
+                const errorDiv = document.getElementById('error-message');
+                errorDiv.style.display = 'block';
+                errorDiv.innerHTML = `
+                    <strong>Error loading data:</strong><br>
+                    Could not load hieroglyph_data.json. Please make sure the file exists in the same directory as this HTML file.<br>
+                    <small>Error details: ${error.message}</small>
+                `;
+            }
+        }
+
+        function getRandomHieroglyphs(count, exclude = null) {
+            const available = hieroglyphs.filter(h => h !== exclude);
+            const shuffled = [...available].sort(() => Math.random() - 0.5);
+            return shuffled.slice(0, count);
+        }
+
+        function generateQuestion() {
+            if (hieroglyphs.length === 0) return;
+            
+            // Reset previous question state
+            document.getElementById('next-button').style.display = 'none';
+            
+            // Get a random hieroglyph for the question
+            currentQuestion = hieroglyphs[Math.floor(Math.random() * hieroglyphs.length)];
+            
+            // Display the hieroglyph (clean up the unicode to show just the first variant)
+            const cleanUnicode = currentQuestion.unicode.split('/')[0];
+            document.getElementById('hieroglyph-display').textContent = cleanUnicode;
+            
+            // Generate wrong answers
+            const wrongAnswers = getRandomHieroglyphs(3, currentQuestion);
+            const allAnswers = [currentQuestion, ...wrongAnswers];
+            
+            // Shuffle the answers
+            const shuffledAnswers = allAnswers.sort(() => Math.random() - 0.5);
+            
+            // Display the answers
+            const answersContainer = document.getElementById('answers');
+            answersContainer.innerHTML = '';
+            
+            shuffledAnswers.forEach((answer, index) => {
+                const button = document.createElement('button');
+                button.className = 'answer-button';
+                button.textContent = answer.transliteration;
+                button.onclick = () => selectAnswer(button, answer === currentQuestion);
+                answersContainer.appendChild(button);
+            });
+        }
+
+        function selectAnswer(button, isCorrect) {
+            totalQuestions++;
+            
+            if (isCorrect) {
+                button.classList.add('correct');
+                correctCount++;
+                
+                // Add to correct answers sidebar
+                addToCorrectAnswers(currentQuestion);
+                
+                // Show next button
+                document.getElementById('next-button').style.display = 'inline-block';
+                
+                // Disable all buttons
+                const allButtons = document.querySelectorAll('.answer-button');
+                allButtons.forEach(btn => btn.disabled = true);
+                
+            } else {
+                button.disabled = true;
+            }
+            
+            updateStats();
+        }
+
+        function addToCorrectAnswers(hieroglyph) {
+            const correctAnswersContainer = document.getElementById('correct-answers');
+            
+            const answerDiv = document.createElement('div');
+            answerDiv.className = 'correct-answer';
+            
+            const cleanUnicode = hieroglyph.unicode.split('/')[0];
+            
+            answerDiv.innerHTML = `
+                <div class="correct-hieroglyph">${cleanUnicode}</div>
+                <div>
+                    <div class="correct-transliteration">${hieroglyph.transliteration}</div>
+                    <div class="correct-type">${hieroglyph.type}</div>
+                </div>
+            `;
+            
+            // Add to the top of the list
+            correctAnswersContainer.insertBefore(answerDiv, correctAnswersContainer.firstChild);
+        }
+
+        function updateStats() {
+            document.getElementById('correct-count').textContent = correctCount;
+            document.getElementById('total-count').textContent = totalQuestions;
+            
+            const accuracy = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+            document.getElementById('accuracy').textContent = accuracy + '%';
+        }
+
+        function nextQuestion() {
+            generateQuestion();
+        }
+
+        // Initialize the quiz by loading data
+        loadHieroglyphData();
+    </script>
+</body>
+</html>
